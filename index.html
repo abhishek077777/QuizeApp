@@ -1,53 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/custom.css" />
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="main">
-        <div id="box" >  
-           <h2 id="quesBox">  1)THis is the dummy Question </h2> 
-           <div class="row">
-            
-               <input class="options" id="option 1" type="radio" value="a" name="option" /> 
-            <label for= "option 1">  option 1 </label >
-            
+      <div id="box">
+        <h2 id="quesBox">1&OverParenthesis;This is the dummy Question</h2>
+        <div class="row">
+          <input
+            class="options"
+            id="option 1"
+            type="radio"
+            value="a"
+            name="option"
+          />
+          <label for="option 1"> option 1 </label>
         </div>
 
         <div class="row">
-            
-            <input class="options" id="option 2" type="radio"  value="b" name="option"/> 
-            <label for="option 2"> option 3 </label >
-            
+          <input
+            class="options"
+            id="option 2"
+            type="radio"
+            value="b"
+            name="option"
+          />
+          <label for="option 2"> option 3 </label>
         </div>
 
         <div class="row">
-            
-            <input class="options" id="option 3" type="radio" value="c"  name="option"/> 
-            <label for="option 3">  option 3 </label >
-            
+          <input
+            class="options"
+            id="option 3"
+            type="radio"
+            value="c"
+            name="option"
+          />
+          <label for="option 3"> option 3 </label>
         </div>
         <div class="row">
-            
-            <input class="options" id="option 4" type="radio" value="d" name="option" /> 
-            <label for="option 4">  option 4 </label >
-            
+          <input
+            class="options"
+            id="option 4"
+            type="radio"
+            value="d"
+            name="option"
+          />
+          <label for="option 4"> option 4 </label>
         </div>
+        <div class="unanswer" Onclick="clearAnswers()">unanswer</div>
+        <div class="container">
+          <button class="btn" Onclick="backButtonClick()">
+            &LeftArrow; go back
+          </button>
 
-        <button class="btn" Onclick="submitQuize() ">
-            submit
-              </button>        
-    </div>    
-
-
-
+          <button class="btn" Onclick="nextButtonClick()">
+            Next &rightarrow;
+          </button>
+        </div>
+      </div>
     </div>
-      <script src="js/apps.js">   </script>
-
-
-</body>
+    <script src="js/apps.js"></script>
+  </body>
 </html>
