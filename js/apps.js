@@ -44,7 +44,7 @@ const loadQuestion = () => {
   if (index === total) {
     return endQuize();
   }
-  reset();
+  reset(); 
   const data = questions[index];
   console.log(data);
   quesBox.innerText = `${index + 1}) ${data.que}`;
