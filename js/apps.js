@@ -116,6 +116,7 @@ const endQuize = () => {
   document.getElementById("box").innerHTML = `
     <h3 > Thanku you for playing the Quize </h3>
     <h2> ${right}/ ${total} are correct</h2> `;
+    
 };
 // intial laod
 
