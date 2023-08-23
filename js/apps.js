@@ -61,7 +61,7 @@ const loadQuestion = () => {
   
 
   document.getElementById("length").innerHTML = `
-  <h1 > Question Watched  Out Of  ${index +1} of  ${total} </h2>
+  <h1 > Ques Watched  Out Of  ${index +1} of  ${total} </h2>
    `; 
   
 
