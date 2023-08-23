@@ -88,7 +88,10 @@ const backButtonClick = () => {
   //     wrong++;
   // }
   index > 0 && index--;
+  
+  
   loadQuestion();
+  
   return;
 };
 const getAnswer = () => {
