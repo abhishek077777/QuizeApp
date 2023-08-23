@@ -31,6 +31,19 @@ const questions = [
     d: "9931624402",
     correct: "a",
   },
+
+ {
+  que: " Which is the largest desert in the world ? ",
+  
+      
+        a: "Kahari", 
+        b: "Gobi", 
+        c: "Sahara", 
+        d: "Antarctica", 
+        correct: "d",
+ }
+
+
 ];
 
 const answers = [];
@@ -45,6 +58,14 @@ const loadQuestion = () => {
     return endQuize();
   }
   reset(); 
+  
+
+  document.getElementById("length").innerHTML = `
+  <h1 > Question watched  out of  ${index +1} of  ${total} </h2>
+   `; 
+  
+
+
   const data = questions[index];
   console.log(data);
   quesBox.innerText = `${index + 1}) ${data.que}`;
@@ -119,6 +140,7 @@ const endQuize = () => {
   document.getElementById("box").innerHTML = `
     <h3 > Thanku you for playing the Quize </h3>
     <h2> ${right}/ ${total} are correct</h2> `;
+   
     
 };
 // intial laod
